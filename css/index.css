@@ -72,12 +72,13 @@ p {
     margin: 0 auto;
     font-size:62.5%;
 }
-hearder {
+header {
     width:100%;
     height:40%;
     display: inline-flex;
     font-size: 1.4 rem;
     margin: 20px 0;
+    flex-wrap:wrap;
 
 }
 header nav{
