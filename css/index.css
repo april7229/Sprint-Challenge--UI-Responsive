@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* /* http://meyerweb.com/eric/tools/css/reset/ 
 
    v2.0 | 20110126
 
@@ -178,12 +178,12 @@ header .logo {
 
     height: 40px;
 
-    background:white;
+    background: white;
 
 }
 
 
-
+/* fixed display flex */
 header nav {
 
     width: 100%;
@@ -209,7 +209,7 @@ header nav a {
 }
 
 
-
+/* fixed max width */
 .jumbotron {
 
     /* solution */
@@ -223,7 +223,7 @@ header nav a {
 }
 
 
-
+/* made space-around space space -evenly */
 .top-content {
 
     display: flex;
@@ -239,7 +239,7 @@ header nav a {
 }
 
 
-
+/* made 48% had 45.8% */
 .top-content .text-container {
 
     width: 48%;
@@ -506,7 +506,7 @@ footer nav a {
 
     }
 
-
+/* added display flex */
 
     header nav {
 
@@ -529,7 +529,7 @@ footer nav a {
     }
 
 
-
+/* added font size */
     header nav a {
 
         font-size: 1.4rem;
@@ -602,7 +602,7 @@ footer nav a {
 
     }
 
-
+/* added justify-content space evenly */
 
     footer nav {
 
@@ -614,5 +614,4 @@ footer nav a {
 
     }
 
-}
-
+} 
